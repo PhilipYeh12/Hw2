@@ -2,13 +2,28 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-color: ;
+	background-image:url('../Hw2/ptrbackground.jpg');
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+nav{
+	float: left;
+	background-color: Lightblue;
+  color:#fff;
+	width: 185px;
+	height: 628px;
+	margin-right: 30px;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+}
 nav ul {
+
 	font-size: 1.2em;
+	list-style: none;
+
 }
 nav a:visited {
 	color: #344873;
@@ -16,12 +31,48 @@ nav a:visited {
 nav a:hover {
 	color: #FFFFFF;
 }
+
+#wrapper{
+
+	background-color: white;
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+	min-width: 600px;
+}
+
+#content img{
+	float: left;
+	margin-right: 30px;
+
+}
+#content{
+
+	background-color: white;
+	height: 570px;
+	overflow: visible;
+
+}
+
+#content ul{
+
+	list-style-image: url(marker.gif);
+
+}
+
+
+
 h1 {
+	background:url('../Hw2/sunset.jpg');
+	background-repeat: no-repeat;
+	background-size: 1300px 60px;
 	margin-bottom: 0;
 	padding: 10px;
+	color: white;
 }
 h2 {
 	color: #3399CC;
+
 }
 h1,
 h2 {
@@ -30,10 +81,15 @@ h2 {
 #contact {
 	font-size: 90%;
 }
+#content li{
+
+
+
+}
 dt {
 	color: #000033;
 }
 footer {
+
 	font-family: Georgia, "Times New Roman", serif;
 }
-
