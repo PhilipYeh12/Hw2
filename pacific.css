@@ -12,7 +12,7 @@ nav{
 	background-color: Lightblue;
   color:#fff;
 	width: 185px;
-	height: 450px;
+	height: 428px;
 	margin-right: 30px;
 }
 nav a{
@@ -48,9 +48,7 @@ nav a:hover {
 }
 #content{
 
-	background-color: white;
 	height: 350px;
-	overflow: visible;
 
 }
 
@@ -65,8 +63,6 @@ nav a:hover {
 
 h1 {
 	background:url('../Hw2/sunset.jpg');
-	background-repeat: no-repeat;
-	background-size: 1300px 60px;
 	margin-bottom: 0;
 	padding: 10px;
 	color: white;
@@ -93,8 +89,10 @@ dt {
 
 footer {
 	padding-bottom: 20px;
-
 	font-family: Georgia, "Times New Roman", serif;
+	background-color: orange;
+	height: 150px;
+  width: 100%;
 }
 .resort{
 	color: Lightblue;
