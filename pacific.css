@@ -1,24 +1,38 @@
+
+/*
+File: pacific.css
+GUI Assignment: Replicate webpage using CSS only
+Philip Yeh, philip_yeh@student_uml.edu
+What to submit:Html CSS file, associated images.
+What is this assignment
+I replicated the website given to us. For this I had to use various css techniques such as manipulating border dimmensions,
+creating the layout using a wrapper and other small commands that change the way things look.
+
+ */
+
+
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
+/*added background image */
 body {
 	background-image:url('../Hw2/ptrbackground.jpg');
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
-	margin:0 0;
+
 
 }
-
+/*create nav bar and float it to left */
 nav{
 	float: left;
-  color:#fff;
 	width: 185px;
 
-	margin-right: 30px;
 }
+/*add color and decoration*/
 nav a{
 	text-decoration: none;
-	color: black;
+	font-weight:bolder;
+	color: indigo;
 }
 nav ul {
 
@@ -32,49 +46,53 @@ nav a:visited {
 nav a:hover {
 	color: #FFFFFF;
 }
-
+/* adjust wrapper so we get similar layout, altered margins and color */
 #wrapper{
 	width: 80%;
 	min-width: 600px;
 	margin-left:auto;
 	margin-right:auto;
-	background-color: Lightblue;
+	background-color: skyblue;
 
 
 }
-
+/*float the image to left */
 #content img{
 	float: left;
 	margin-right: 30px;
 
 }
 
-
+/* create background for content and add padding so surround text lines up*/
 #content{
 
 	background-color: white;
 	margin-left: 240px;
-	padding: 16px 32px;
+	padding-left: 24px;
+	padding-top: 10px;
+	padding-bottom: 45px;
 
 }
-
+/*add a list style image that is lined up to text using list style inside, Taken from w3 schools */
 #content ul{
 
-	list-style-image: url(marker.gif);
-	text-indent: 10px;
-
+	list-style: inside url(marker.gif);
 }
 
 
-
+/*added sunset back ground and put the image to the right.
+	since the picture only covered right corner I realized I could set the background to this Header
+	to cover the rest of the bar. I used a color picker online to determine the background color to
+	make the header complete
+ */
 h1 {
 	background:url('../Hw2/sunset.jpg');
 	margin-bottom: 0;
-	padding: 10px;
+	padding: 15px;
 	color: white;
+	background-color: #010136;
 	background-repeat: no-repeat;
 	background-position: right;
-	background-color: #000033
 }
 
 h2 {
@@ -97,15 +115,18 @@ dt {
 
 	color: #000033;
 }
-
+/*set footer, added spacing to line up and changed font style */
 footer {
 	padding-left: 20px;
 	padding-bottom: 20px;
 	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
-	margin-left: 240px
+	font-style: italic;
+	margin-left: 240px;
 
 }
+/* matching colors*/
 .resort{
-	color: Lightblue;
+	font-weight:bold;
+	color: RoyalBlue;
 }
